@@ -14,6 +14,77 @@ background-color: #1f2937;
     color: #f9faf8;
 }
 
+.heroarea  {
+    background-color: #1f2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.herolefttext {
+width: 400px;;
+height: auto;
+padding: 20px;
+}
+
+.heroheading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.herodesc {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: lighter;
+}
+
+.herorightimg {
+    width: 400px;
+    height: auto;
+    
+}
+
+/*Info area css */
+
+.infotitle {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.infoimg {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.infoimg p {
+    
+    padding-left: auto;
+}
+
+.infoimgone,.infoimgtwo,
+.infoimgthree,
+.infoimgfour {
+    width:150px;
+    height:auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.infoimg img {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    padding: 5px;
+    width:150px;
+    height:150px;
+   
+}
+
 ul {
     list-style-type: none;
     display:flex;
@@ -34,4 +105,11 @@ ul {
 
 button {
     border-radius: 10%;
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: solid;
+
 }
